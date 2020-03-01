@@ -1,0 +1,23 @@
+{
+02    "manifest_version": 2,
+03
+04    "name": "Tab hot-keys",
+05    "version": "1.0",
+06
+07    "icons": {
+08        "16": "16x16.png",
+09        "32": "32x32.png",
+10        "48": "48x48.png",
+11        "128": "128x128.png"
+12    },
+13
+131        "permissions": [
+132             "http://translate.yandex.net/*"
+133        ],
+134
+14    "browser_action": {
+15        "default_title": "Открыть переводчик",
+16        "default_icon": "48x48.png",
+17        "default_popup": "popup.html"
+18    }
+19 }
